@@ -1,9 +1,65 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="english">
 <head>
-	<title>Hello Coursera!</title>
+   <meta charset="utf-8">
+   <title> css </title>
+   <style type="text/css">
+      header li {
+         list-style: none;
+      }
+      a:link, a:visited {
+         text-decoration: none;
+         background-color: lightpink;
+         color: darkblue;
+         border: 2px solid red;
+         display: block;
+         width: 200px;
+         text-align: center;
+         margin-bottom: 3px;
+      }
+      /*a:hover, a:active {
+         background-color: lightgrey;
+         color: black;
+         font-style: italic;
+      }*/
+      header li:nth-child(3){
+         font-size: 20px;
+      }
+      article li:nth-child(odd){
+         background-color: lightgreen;
+         width: 250px;
+      }
+      article li:nth-child(4):hover {
+         color: darkred;
+         background-color:yellow;
+         cursor: pointer;
+         width: 250px;
+      }
+   </style>
 </head>
 <body>
-<h1>Hello Coursera!.It's a great course!</h1>
+   <h1>Pseudo Class Selectors</h1>
+   <header>
+      <ul>
+      <li><a href="lbs">Youtube video</a></li>
+      <li><a href="bb">Home Page</a></li>
+      <li><a href="bbb">My Instagram Page</a></li>
+      </ul>
+   </header>
+   <article>
+      Friend's Name's:
+      <ol>
+         <li>Sree valli</li>
+         <li>Bulli</li>
+         <li>Vinni</li>
+         <li>Narendra</li>
+         <li>Srivatsav</li>
+         <li>Aditya</li>
+         <li>Himaja</li>
+         <li>Deeksh</li>
+         <li>Sravani</li>
+         <li>Akhila</li>
+      </ol>
+   </article>
 </body>
 </html>
